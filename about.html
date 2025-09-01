@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - NexusCore</title>
+  <title>About | NexusCore</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar container">
-      <div class="logo">NexusCore</div>
-      <ul class="nav-links">
+  <header class="navbar">
+    <div class="logo">NexusCore</div>
+    <nav>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" class="active">About</a></li>
         <li><a href="services.html">Services</a></li>
@@ -19,24 +20,29 @@
     </nav>
   </header>
 
-  <section class="page-hero">
-    <h1>About Us</h1>
-    <p>Learn more about NexusCore’s mission and values.</p>
+  <section class="page-header" data-aos="fade-up">
+    <h1>About NexusCore</h1>
+    <p>We are driven by innovation, guided by AI, and focused on delivering excellence.</p>
   </section>
 
-  <section class="container content">
-    <h2>Who We Are</h2>
-    <p>
-      NexusCore is a forward-thinking IT firm specializing in Artificial Intelligence services. 
-      Our mission is to empower businesses with advanced AI-driven solutions that enhance productivity, 
-      optimize processes, and drive innovation.
-    </p>
+  <section class="about-content">
+    <div class="about-text" data-aos="fade-right">
+      <h2>Who We Are</h2>
+      <p>
+        NexusCore is an AI solutions provider helping businesses transform with intelligence and automation.
+        With futuristic thinking and a numerology-inspired approach, we bring balance, clarity, and success.
+      </p>
+    </div>
+    <div class="about-img" data-aos="fade-left">
+      <img src="assets/bg.jpg" alt="NexusCore">
+    </div>
   </section>
 
   <footer>
-    <div class="container">
-      <p>© 2025 NexusCore. All Rights Reserved.</p>
-    </div>
+    <p>© 2025 NexusCore. Designed for the Future.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
