@@ -3,56 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NexusCore - AI Solutions</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>NexusCore | AI Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <nav class="navbar container">
-      <div class="logo">NexusCore</div>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">NexusCore</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Innovating with AI for a Smarter Future</h1>
-      <p>We help businesses unlock the power of Artificial Intelligence to transform their ideas into impactful solutions.</p>
-      <a href="services.html" class="btn">Explore Services</a>
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Shaping the Future with <span>AI</span></h1>
+      <p>At NexusCore, we empower businesses with intelligent, futuristic AI solutions to lead the digital revolution.</p>
+      <a href="#services" class="btn">Explore Services</a>
     </div>
   </section>
 
-  <!-- Services Preview -->
-  <section class="services-preview container">
-    <h2>Our Core Services</h2>
-    <div class="services-grid">
-      <div class="card">
-        <h3>AI Consulting</h3>
-        <p>Strategic guidance on AI adoption to drive growth and efficiency.</p>
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>AI Automation</h3>
+        <p>Streamline workflows with intelligent automation tailored to your business needs.</p>
       </div>
-      <div class="card">
-        <h3>Custom AI Models</h3>
-        <p>Tailored AI solutions built to meet your business needs.</p>
+      <div class="service-card">
+        <h3>Data Insights</h3>
+        <p>Unlock hidden opportunities through advanced AI-driven data analysis.</p>
       </div>
-      <div class="card">
-        <h3>Automation</h3>
-        <p>Streamline operations with intelligent automation workflows.</p>
+      <div class="service-card">
+        <h3>Custom AI Solutions</h3>
+        <p>Develop bespoke AI models that give your business a competitive edge.</p>
       </div>
+      <div class="service-card">
+        <h3>Consulting</h3>
+        <p>Get expert guidance to integrate AI seamlessly into your existing systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About NexusCore</h2>
+    <p>We are a team of visionaries building AI-powered systems that stand for leadership, innovation, and trust. Our goal is to provide futuristic yet minimal solutions that align with your growth path.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="#">LinkedIn</a>
+      <a href="#">Facebook</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2025 NexusCore. All Rights Reserved.</p>
-    </div>
+  <footer class="footer">
+    <p>© 2025 NexusCore. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
