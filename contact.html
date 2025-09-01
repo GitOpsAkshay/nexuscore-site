@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - NexusCore</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact NexusCore</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
     <nav>
-      <div class="logo">
-        <img src="images/logo.png" alt="NexusCore Logo" />
-        <h1>NexusCore</h1>
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
+        <div class="logo">
+            <img src="logo.png" alt="NexusCore Logo">
+            <h2>NexusCore</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <section class="contact-section">
-      <h2>Contact Us</h2>
-      <p>We’d love to hear from you. Get in touch today!</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="tel" placeholder="Phone Number (Optional)">
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-      <div class="social-links">
-        <p>Connect with us:</p>
-        <a href="#">LinkedIn</a> | <a href="#">Facebook</a>
-      </div>
+    <section class="contact fade-up">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone (optional)">
+            <textarea placeholder="Message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2025 NexusCore. All Rights Reserved.</p>
-  </footer>
+    <footer>
+        <p>© 2025 NexusCore. All rights reserved.</p>
+        <p>
+            <a href="https://linkedin.com" target="_blank" style="color:#fff;margin:0 10px;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" style="color:#fff;margin:0 10px;">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
