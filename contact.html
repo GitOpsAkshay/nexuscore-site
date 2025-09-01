@@ -24,26 +24,37 @@
     <p>We’d love to hear from you. Get in touch today!</p>
   </section>
 
-  <section class="container contact-form">
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+  <section class="container contact-wrapper">
+    <div class="contact-card">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
 
-      <label for="phone">Phone (Optional)</label>
-      <input type="tel" id="phone" name="phone">
+        <div class="form-group">
+          <label for="phone">Phone (Optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
 
-      <button type="submit" class="btn">Send Message</button>
-    </form>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
 
-    <div class="social-links">
-      <p>Connect with us:</p>
-      <a href="#">LinkedIn</a> | <a href="#">Facebook</a>
+      <div class="contact-info">
+        <h3>Connect with us</h3>
+        <p>We’re available on:</p>
+        <a href="#">LinkedIn</a> | <a href="#">Facebook</a>
+      </div>
     </div>
   </section>
 
