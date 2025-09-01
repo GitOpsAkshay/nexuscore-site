@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - NexusCore</title>
+  <title>Services | NexusCore</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar container">
-      <div class="logo">NexusCore</div>
-      <ul class="nav-links">
+  <header class="navbar">
+    <div class="logo">NexusCore</div>
+    <nav>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html" class="active">Services</a></li>
@@ -19,34 +20,31 @@
     </nav>
   </header>
 
-  <section class="page-hero">
+  <section class="page-header" data-aos="fade-up">
     <h1>Our Services</h1>
-    <p>Explore the AI-powered solutions we provide to transform your business.</p>
+    <p>AI-driven solutions crafted for business transformation.</p>
   </section>
 
-  <section class="container services-list">
-    <div class="card">
-      <h3>AI Consulting</h3>
-      <p>We guide businesses through AI integration strategies tailored to their unique needs.</p>
+  <section class="services-grid">
+    <div class="service-card" data-aos="flip-left">
+      <h3>AI Chatbots</h3>
+      <p>Intelligent chat solutions to boost customer engagement.</p>
     </div>
-    <div class="card">
-      <h3>Custom AI Models</h3>
-      <p>From natural language processing to computer vision, we build models suited for your goals.</p>
+    <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+      <h3>Process Automation</h3>
+      <p>Reduce costs and increase efficiency with smart automation.</p>
     </div>
-    <div class="card">
-      <h3>Intelligent Automation</h3>
-      <p>Automate repetitive tasks and enhance workflows with AI-driven automation.</p>
-    </div>
-    <div class="card">
-      <h3>Data Analytics</h3>
-      <p>Turn raw data into actionable insights using advanced AI analytics techniques.</p>
+    <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+      <h3>Data Insights</h3>
+      <p>Turn raw data into actionable insights for smarter decisions.</p>
     </div>
   </section>
 
   <footer>
-    <div class="container">
-      <p>© 2025 NexusCore. All Rights Reserved.</p>
-    </div>
+    <p>© 2025 NexusCore. Designed for the Future.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
