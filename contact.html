@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | NexusCore</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
   <header class="navbar">
@@ -19,30 +20,32 @@
     </nav>
   </header>
 
-  <section class="contact">
-    <h2>Get in Touch</h2>
-    <p>Have a project in mind? Let's talk about how NexusCore can help you.</p>
+  <section class="page-header" data-aos="fade-up">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Let’s build the future together.</p>
+  </section>
 
-    <div class="contact-container">
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="text" placeholder="Phone (Optional)">
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-
-      <div class="contact-info">
-        <h3>Contact Details</h3>
-        <p>Email: contact@nexuscore.ai</p>
-        <p>LinkedIn: <a href="#">linkedin.com/company/nexuscore</a></p>
-        <p>Facebook: <a href="#">facebook.com/nexuscore</a></p>
-      </div>
+  <section class="contact-form-section">
+    <form class="contact-form" data-aos="fade-right">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Phone (optional)">
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+    <div class="contact-info" data-aos="fade-left">
+      <h3>Get in Touch</h3>
+      <p>Email: hello@nexuscore.ai</p>
+      <p>LinkedIn: <a href="#">NexusCore</a></p>
+      <p>Facebook: <a href="#">NexusCore</a></p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 NexusCore. All Rights Reserved.</p>
+    <p>© 2025 NexusCore. Designed for the Future.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
